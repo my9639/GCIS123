@@ -15,11 +15,28 @@ def draw_circle(x,y, radius, fill_color):
     turtle.up()
     
 
+'''
+def draw_centered_circle(x,y, radius, fill_color):
+
+original_heading = turtle.heading()
+
+turtle.heading()
+turtle.up()
+turtle.goto(x,y)
+turtle.down()
+turtle.forward(radius)
+turtle.fillcolor(fill_color)
+turtle.begin_fill()
+turtle.circle(radius)
+turtle.endfill()
+turtle.up()
+turtle.goto(x,y)
+turtle.setheading(original_heading)
+'''
+
 
 def main():
-    draw_circle(0,0,20,"red")
-    draw_circle(50,50,40,"green")
-    draw_circle(100,100,60,"yellow")
+    #draw_centered_circle()
 
     input("Press Enter to Close Program")
 
