@@ -7,7 +7,7 @@ def draw_circle(x,y, radius, fill_color):
     '''
     turtle.up()
     turtle.goto(x,y)
-    turtle.down
+    turtle.down()
     turtle.fillcolor(fill_color)
     turtle.begin_fill()
     turtle.circle(radius)
