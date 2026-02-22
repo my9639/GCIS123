@@ -36,8 +36,15 @@ def draw_centered_circle(x,y, radius, fill_color):
     turtle.setheading(original_heading)
 
 
+def draw_smiley(x,y, headradius, fill_color_head, fill_color_nose):
+    
+    draw_centered_circle(x,y, headradius, fill_color_head)
+    
+    draw_centered_circle (x,y, headradius/10, fill_color_nose)
+
+
 def main():
-    draw_centered_circle(10,10, 50, "red")
+    draw_smiley(0,0,200,"yellow","pink")
 
     input("Press Enter to Close Program")
 
