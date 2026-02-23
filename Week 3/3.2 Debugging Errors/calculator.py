@@ -33,18 +33,18 @@ def division(number1 , number2):
 
 def main():
     
-    # number1 = int(input("Number 1: "))
-    # number2 = int(input("Number 2: "))
-    
     radius = float(input("Input a radius to get the circle's circumference & area: "))
 
     print(circumference_given_radius(radius))
     print(area_given_radius(radius))
 
-    # print(addition(number1,number2))
-    # print(subtraction(number1,number2))
-    # print(multiplication(number1,number2))
-    # print(division(number1,number2))
+    number1 = int(input("Number 1: "))
+    number2 = int(input("Number 2: "))
+    
+    print(addition(number1,number2))
+    print(subtraction(number1,number2))
+    print(multiplication(number1,number2))
+    print(division(number1,number2))
 
 
 
