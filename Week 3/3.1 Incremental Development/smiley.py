@@ -90,7 +90,7 @@ def draw_smiley(x,y, headradius, fill_color_head, fill_color_nose, iriscolor):
     draw_eyes(x + 0.35*headradius, y + 0.35*headradius, 0.25*headradius, iriscolor) #Right Eye
     draw_eyes(x - 0.35*headradius, y + 0.35*headradius, 0.25*headradius, iriscolor) #Left Eye
 
-    draw_mouth(x, y - 0.25*headradius, 0.60*headradius, "Black")
+    draw_mouth(x, y - 0.25*headradius, 0.60*headradius, "Black") #Draws Mouth
 
 
 
