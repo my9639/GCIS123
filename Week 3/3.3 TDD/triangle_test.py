@@ -1,5 +1,5 @@
 def triangle_area(base,height):
-    if base < 0:
+    if base < 0 or height < 0:
         return None
     
     return 0.5 * base * height
